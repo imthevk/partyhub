@@ -24,7 +24,7 @@ const CommunityTemplate = () => {
           buttonText="Follow us on X"
           imgSrc={ImageTwo}
           onClick={() => console.log("Follow us on X")}
-          imageClassName="!aspect-auto w-80"
+          imageClassName="!aspect-auto !w-80"
           btnClassName="bg-bg-100"
         />
         <CommunityBlockHorizontal
@@ -33,7 +33,7 @@ const CommunityTemplate = () => {
           buttonText="Join Us on Facebook"
           imgSrc={ImageThree}
           onClick={() => console.log("Join us on Facebook")}
-          imageClassName="!aspect-auto w-96"
+          imageClassName="!aspect-auto !w-80"
           btnClassName="md:w-[12rem] bg-bg-100"
         />
       </div>
